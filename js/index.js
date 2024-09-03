@@ -19,5 +19,6 @@
         }
 
         /* Pregunta: ¿Cómo se puede manipular el DOM usando JavaScript para cambiar el contenido de un elemento? 
-                        Cambiar el texto de un elemento
+                        Se puede manipular de distintas formas puede ser utilizando el id, clase o tag del elemento para luego
+                        utilizar el metodo innerText para cambiar el texto del elemento
         */

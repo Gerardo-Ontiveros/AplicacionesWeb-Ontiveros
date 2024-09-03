@@ -1,0 +1,38 @@
+/* Pregunta: ¿Qué propiedad CSS se usa para cambiar el color de fondo de un elemento? 
+    La etiqueta utilizada para poder cambiar el color es "background-color".
+*/
+
+body {
+    background-color: #f4f4f4; /* <- Respuesta */
+    font-family: Arial, sans-serif;
+}
+
+/* Pregunta: ¿Cómo se centra un div dentro de su contenedor padre horizontalmente? 
+
+*/
+#container {
+    display: flex; /* <- Respuesta */
+    flex-direction: column; /* <- Respuesta */
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center; /* <- Respuesta */
+    align-items: center; /* <- Respuesta */
+}
+
+/* Pregunta: ¿Cuál es la diferencia entre 'id' y 'class' en CSS? 
+    El 'id' solo se puede utilizar en un elemento HTML mientras que el 'class' puede usarse para varios.
+*/
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica 1 Ontiveros</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!--HEADER/NAVEGACION-->
+    <header>
+      <div>Gerardo Ontiveros</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Inicio</a>
+          </li>
+          <li>
+            <a href="#aboutme">Sobre Mi</a>
+          </li>
+          <li>
+            <a href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <img class="banner" src="public/banner.png" />
+    <!--DESCRIPCION PAGINA-->
+    <section class="descripcion">
+      <h1>Conceptos Basicos de HTML5</h1>
+      <p>
+        Esta pagina esta diseñada para seguir entendiendo los conceptos de html
+        y css.
+      </p>
+    </section>
+
+    <!--SOBRE MI-->
+    <section class="aboutme" id="aboutme">
+      <h2>Cosas que me definen</h2>
+      <img class="yo" src="public/img.jpg" alt="Yo" />
+      <ul>
+        <li>1.-Me gusta la programacion</li>
+        <li>2.- Soy alegre y amigable</li>
+        <li>3.- No me gustan los problemas</li>
+      </ul>
+    </section>
+
+    <!--Contacto-->
+    <section class="contact" id="contacto">
+      <h2>Contacto</h2>
+      <form action="" method="get">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" name="email" required />
+        <label for="comentarios">Comentarios (optional)</label>
+        <input type="text" name="comentarios" class="comentario" />
+    </form>
+    <div class="btn-container">
+        <button type="submit" class="btn">Enviar</button>
+    </div>
+    </section>
+  </body>
+</html>

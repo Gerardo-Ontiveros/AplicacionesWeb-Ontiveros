@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>Ontiveros</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="container-ul">
+        <li class="list-nav"><a href="#">Inicio</a></li>
+        <li class="list-nav"><a href="#QuienesSomos">Quienes Somos</a></li>
+        <li class="list-nav"><a href="#Productos">Productos</a></li>
+      </ul>
+      <span class="logo">MoniGaming</span>
+      <button type="button" class="btn-nav">
+        <a href="#Contacto">Contactar</a>
+      </button>
+    </nav>
+
+    <!--SLIDER-->
+    <div class="slider-container">
+      <div class="slider">
+        <img src="./src/assets/img/slide1.avif" alt="slide 1" />
+        <img src="./src/assets/img/slide2.avif" alt="slide 2" />
+        <img src="./src/assets/img/slide3.avif" alt="slide 3" />
+      </div>
+    </div>
+
+    <!--DESCRIPCION PAGINA-->
+    <section class="descripcion-section">
+      <div class="content">
+        <h1>
+          Introduccion a <br />
+          Aplicaiones Web
+        </h1>
+        <p>
+          HTML5 es un lenguaje de marcas que nos permite el desarrollo de
+          páginas web, al cual se le han añadido un conjunto de capacidades que
+          nos permiten explotar las capacidades de los dispositivos en temas de
+          multimedia, rendimiento, offline, interacción con el usuario
+        </p>
+      </div>
+      <div class="image-container">
+        <img
+          src="./src/assets/img/html5.jpg"
+          alt="HTML5-CSS-JAVASCRIPT ILUSTRACION"
+        />
+      </div>
+    </section>
+
+    <!--Productos-->
+    <section class="Productos-section" id="Productos">
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 1.webp" alt="" />
+          <span>ASUS ROG Swift</span>
+          <p>$500</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 2.webp" alt="" />
+          <span>Monitor Gamer Samsung</span>
+          <p><del>$500</del> $250</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 3.webp" alt="" />
+          <span>GIGABYTE G24F 2</span>
+          <p>$420</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 4.webp" alt="" />
+          <span>LG 34GP63A-B</span>
+          <p>$300</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 5.webp" alt="" />
+          <span>Sceptre 34-Inch</span>
+          <p>$290</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="container-productos">
+        <div class="producto">
+          <img src="./src/assets/img/producto 6.webp" alt="" />
+          <span>Sceptre 34-Inch</span>
+          <p>$990</p>
+          <a href="./src/pages/producto.html">
+            <button class="shopping-btn">
+              <i class="fas fa-shopping-cart"></i> |Comprar
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Concacto-->
+    <section class="Contact-section" id="Contacto">
+      <form action="" method="get">
+        <label>Nombre:</label>
+        <input type="text" name="name" required />
+        <label>Email:</label>
+        <input type="email" name="email" required />
+        <label>Comentarios (optional):</label>
+        <textarea type="text" name="comentarios" class="comentario"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <img src="./src/assets/img/Contact Us.png" />
+    </section>
+
+    <!--Footer-->
+    <footer></footer>
+  </body>
+  <script src="./src/components/slider.js"></script>
+</html>

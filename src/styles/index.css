@@ -48,7 +48,6 @@ body{
     font-size: 26px;
     color: #37447E;
     display: flex;
-    margin-right: 250px;
 }
 .btn-nav{
     margin-left: 20px;
@@ -208,9 +207,16 @@ body{
     height: 30px;
     width: 500px;
     margin-bottom: 20px;
+    padding: 10px;
+}
+.Contact-section form .comentario{
+    border-radius: 20px;
+    height: 150px;
+    text-align: start;
+    padding: 10px;
 }
 .Contact-section form input:focus{
-    border-color: #4d7dff;
+    border-color: 1px #4d7dff;
 }
 
 .Contact-section form button{
@@ -219,6 +225,7 @@ body{
     color: white;
     height: 50px;
     border-radius: 15px;
+    margin-top: 10px;
 }
 .Contact-section form button:hover{
     background-color: #2e55fd;
